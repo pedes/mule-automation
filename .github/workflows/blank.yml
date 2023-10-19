@@ -35,4 +35,4 @@ jobs:
 
       # Automation using Any CLI
       - name: Automation using Any CLI
-        run: anypoint-cli-v4 account:user:describe --host eu1.anypoint.mulesoft.com --client_id 14bdd8d6fb3242aa944ef0b4b6711936 --client_secret 362d736FD75647ffb011301c347aFb53 --environment Sandbox --output json     
+        run: anypoint-cli-v4 account:user:describe --host anypoint.mulesoft.com --client_id 14bdd8d6fb3242aa944ef0b4b6711936 --client_secret 362d736FD75647ffb011301c347aFb53 --environment Sandbox --output json     
